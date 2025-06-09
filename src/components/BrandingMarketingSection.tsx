@@ -23,22 +23,22 @@ const BrandingMarketingSection = () => {
     return () => observer.disconnect();
   }, []);
 
-  const aiMarketingTools = [
-    "ChatGPT & Claude AI",
-    "Midjourney & DALL-E",
-    "Copy.ai & Jasper",
-    "HubSpot AI Tools",
-    "Salesforce Einstein",
-    "Google Analytics 4",
-    "Meta Business Suite",
-    "LinkedIn Campaign Manager",
-    "Canva AI Designer",
-    "Zapier Automation",
-    "Leadfeeder & ZoomInfo",
-    "Mailchimp AI",
-    "Hootsuite Insights",
-    "Semrush AI Writing",
-    "Drift Conversational AI"
+  const aiMarketingCapabilities = [
+    "Intelligent Content Creation",
+    "Automated Campaign Optimization",
+    "Predictive Lead Scoring",
+    "Dynamic Audience Segmentation",
+    "Real-time Performance Analytics",
+    "AI-Powered A/B Testing",
+    "Conversion Rate Optimization",
+    "Behavioral Trigger Automation",
+    "Smart Budget Allocation",
+    "Cross-Platform Integration",
+    "Advanced Customer Journey Mapping",
+    "Personalized User Experiences",
+    "Data-Driven Decision Making",
+    "ROI Maximization Strategies",
+    "Brand Voice Consistency"
   ];
 
   const marketingExpertise = [
@@ -64,24 +64,24 @@ const BrandingMarketingSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* AI Marketing Tools */}
+          {/* AI Marketing Capabilities */}
           <div className={`transition-all duration-1000 delay-200 ${
             isVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'
           }`}>
             <h3 className="font-poppins font-bold text-2xl text-deep-blue mb-6">
-              AI Marketing Arsenal
+              AI-Driven Marketing Excellence
             </h3>
             <p className="text-gray-700 mb-6">
-              Mastering the latest AI tools to create campaigns that deliver exceptional results and drive business growth.
+              Harnessing the power of artificial intelligence to create sophisticated marketing campaigns that deliver measurable results and sustainable business growth through strategic automation and data-driven insights.
             </p>
             <div className="flex flex-wrap gap-3">
-              {aiMarketingTools.map((tool, index) => (
+              {aiMarketingCapabilities.map((capability, index) => (
                 <Badge
                   key={index}
                   variant="outline"
                   className="px-3 py-2 text-sm border-light-blue text-deep-blue hover:bg-light-blue hover:text-white transition-all duration-300 hover:shadow-md hover:scale-105"
                 >
-                  {tool}
+                  {capability}
                 </Badge>
               ))}
             </div>
