@@ -24,7 +24,7 @@ const CallToActionSection = () => {
   }, []);
 
   const handleContactClick = () => {
-    window.location.href = 'mailto:siva.prasad@example.com';
+    window.location.href = 'mailto:svprsdm@alviongs.com';
   };
 
   return (
@@ -41,10 +41,10 @@ const CallToActionSection = () => {
           isVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'
         }`}>
           <h2 className="font-poppins font-bold text-4xl md:text-5xl mb-6">
-            Ready to Transform Your Business?
+            Ready to Transform Your Brand with AI?
           </h2>
           <p className="text-xl mb-8 text-blue-100 max-w-3xl mx-auto">
-            Ready to transform your business with innovative software solutions? Get in touch with Siva today!
+            Let's leverage the power of Generative AI to create compelling brands and generate high-quality leads that drive real business growth. Get in touch with Siva today!
           </p>
           
           <Button
@@ -52,8 +52,14 @@ const CallToActionSection = () => {
             size="lg"
             className="bg-white text-deep-blue hover:bg-gray-100 font-poppins font-semibold px-8 py-4 text-lg rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-pulse-soft"
           >
-            Contact Siva
+            Start Your Brand Transformation
           </Button>
+          
+          <div className="mt-6">
+            <p className="text-blue-200 text-sm">
+              Contact: svprsdm@alviongs.com
+            </p>
+          </div>
         </div>
       </div>
     </section>

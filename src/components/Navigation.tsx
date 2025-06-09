@@ -36,7 +36,7 @@ const Navigation = () => {
               { label: 'About', id: 'about' },
               { label: 'Expertise', id: 'expertise' },
               { label: 'Projects', id: 'projects' },
-              { label: 'Leadership', id: 'leadership' },
+              { label: 'Marketing', id: 'marketing' },
               { label: 'Contact', id: 'contact' }
             ].map((item) => (
               <button

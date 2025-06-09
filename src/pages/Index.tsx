@@ -8,7 +8,7 @@ import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import DomainExpertiseSection from '@/components/DomainExpertiseSection';
 import FlagshipProjectsSection from '@/components/FlagshipProjectsSection';
-import TechnologyLeadershipSection from '@/components/TechnologyLeadershipSection';
+import BrandingMarketingSection from '@/components/BrandingMarketingSection';
 import CallToActionSection from '@/components/CallToActionSection';
 
 const Index = () => {
@@ -27,7 +27,7 @@ const Index = () => {
         <AboutSection />
         <DomainExpertiseSection />
         <FlagshipProjectsSection />
-        <TechnologyLeadershipSection />
+        <BrandingMarketingSection />
         <CallToActionSection />
       </main>
 
